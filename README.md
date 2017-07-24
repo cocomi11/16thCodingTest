@@ -10,7 +10,7 @@
 
 ### Schedule
 * Submission Due Date: ~ July 31, 2017 11:59 AM
-* Interim Meetings: July 25, July 27 (tentative) 
+* Interim Meetings: July 26 (Wed), July 28 (Fri)
 
 ### How to Submit?
 * make the whole folders into one compressd file whose name is your name or ID, e.g., heewon.zip.
@@ -25,7 +25,7 @@
 ### How to Compile?
 1. You have to modify CMakeLists.txt and lib/CMakeLists.txt.
     * need to change the paths HElib and NTL directories according to your system. (If you have installed GMP and GF2X, then change it, too.)
-    * replace '<YourName>' with your name.
+    * replace [YourName] with your name.
 2. $ cmake CMakeLists.txt
 3. $ make
 4. You can make your own Makefile or CMakeLists.txt.
