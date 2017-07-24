@@ -27,8 +27,8 @@ int main(){
     secretKey.GenSecKey(security);
 
     cout << "Generating Frobenius and SIMD Matrices... \n";
-    addFrbMatrices(publicKey);
-    addSome1DMatrices(publicKey);
+    addFrbMatrices(secretKey);
+    addSome1DMatrices(secretKey);
 
     const EncryptedArray ea(context, F);
 
