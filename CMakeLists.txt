@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.6)
 project (16thCodingTest)
 
 set (CMAKE_CXX_STANDARD 11)
-set (SOURCE_FILES src/comparison.cpp src/generalTools.cpp src/utilities.cpp)
+set (SOURCE_FILES src/comparison.cpp)
 set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
 # Configuration Profile
