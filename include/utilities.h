@@ -1,6 +1,7 @@
 #ifndef UTILITIES_H
 #define UTILITIES_H
 
+#include <cstdlib>
 #include <chrono>
 
 #define TIMER std::chrono::time_point<std::chrono::steady_clock>
