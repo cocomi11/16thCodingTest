@@ -7,8 +7,6 @@ int main(){
     srand(time(NULL));
     SetSeed(to_ZZ(time(NULL)));
 
-    cout << "test " << endl;
-
     long p = 2;
     long r = 1;
     long security = 80;
