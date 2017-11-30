@@ -16,8 +16,7 @@ if (OPENMP_FOUND)
     set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
 endif()
 
-set (HELIB_SOURCE_DIRECTORY "/home/emsskk/Library/HElib/src/")
- 
+set (HELIB_SOURCE_DIRECTORY "~/Library/HElib/src/") 
 include_directories(${HELIB_SOURCE_DIRECTORY})
 include_directories(include)
 
